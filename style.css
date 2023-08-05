@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  color: #fdfdfd;
+  background-color: #f2f3f6;
+  margin: 2rem;
+  padding: 0;
+}
+
+.container {
+  display: grid;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #303031;
+}
+
+form {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 5px;
+  margin-right: 10px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#displayData {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+}
+
+button {
+  padding: 5px 10px;
+  background-color: #51bb7b;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
